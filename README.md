@@ -1,3 +1,3 @@
 # SampleStack
 
-Reffaform sample stack
+Terraform sample stack
