@@ -54,5 +54,4 @@ variable "fid_service_type" {
 
 variable "fid_license" {
   sensitive = true
-  default   = "${FID_LICENSE}"
 }
