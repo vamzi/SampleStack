@@ -16,4 +16,7 @@ data "kubernetes_service_v1" "fid_ext" {
     name      = "fid-ext"
     namespace = "fid-demo"
   }
+  depends_on = [
+    helm_release.fid
+  ]
 }
