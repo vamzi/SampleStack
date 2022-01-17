@@ -49,7 +49,7 @@ variable "fid_root_password" {
 }
 
 variable "fid_service_type" {
-  default = "ClusterIP"
+  default = "LoadBalancer"
 }
 
 variable "fid_license" {
